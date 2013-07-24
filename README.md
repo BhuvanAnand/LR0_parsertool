@@ -8,8 +8,8 @@ a parser typically parse a input string and check whether the input belongs to t
 LR(0) parser - left to right scanning of the input and rightmost derivation of grammar symbols.
 
 LR(0) parser composed of five stages.
-      1) finding the FIRST of grammar symbols.
-      2) finding the FOLLOW of grammar symbols.
+      1) finding the FIRST set of grammar symbols.
+      2) finding the FOLLOW set of grammar symbols.
       3) from initial state apply the closure rule to find all the possible input states.
       4) construct a parsing table from states obtained by applying closure.
       5) parse the input string by using the parsing table.
