@@ -16,3 +16,6 @@ LR(0) parser composed of five stages.
       
 all the above stages are implemented and the GUI is provided making it as a tool for learning the LR(0) parsing.
 each of the above stage outputs can be seen at a click of corresponding button.
+
+language used: python 2.7, PyQt4
+to start the tool, execute the file Gui_Main.py
